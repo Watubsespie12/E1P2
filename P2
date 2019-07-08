@@ -1,0 +1,26 @@
+#include <iostream>
+#include <conio.h>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main()
+
+{
+
+// variables
+
+double mass , volume , density;
+
+// main code
+cout<< fixed << showpoint << setprecision(2);
+ 
+cout << "Enter the weight in grams:";
+cin >> mass;
+
+cout << "Enter the volume:";
+cin >> volume;
+
+cout << "Therefore the density is:"<< (.25 * mass / volume) << " grams per cubic centi meters" << endl;
+
+return 0;
+}
